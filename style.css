@@ -1,0 +1,27 @@
+.footer-links a {
+    color: currentColor;
+}
+
+.footer-link {
+    margin-top: .3rem;
+}
+
+.footer-link a {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link a strong {
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-weight: unset;
+}
+
+.footer-link-icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: .5em;
+    text-align: center;
+    width: 1em;
+}
